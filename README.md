@@ -14,6 +14,8 @@ Please download CIFAR-100-C by the url below:
 
 ## Training
 
+#### Common Visual Corruptions on CIFAR-100-C
+
 ###### P2BE(M=64, λ=1.0) + WideResNet/ DenseNet-BC (k=12,d=100)/ ResNeXt-29 (32×4) + Augmix
 ```
 python cifar_augmix.py --corrupted path_to_cifar100-c --dataset cifar100 -m wrnb -e 200 -s results_wrnb_cifar100 --m 64 --coefficient_smooth 1.0 --wde 1.0e-4 --lre 1.0e-4
