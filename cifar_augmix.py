@@ -29,8 +29,6 @@ from third_party.WideResNet_pytorch_s.wideresnet_b import WideResNetB
 from third_party.WideResNet_pytorch_onehot.wideresnet_onehot import WideResNetOnehot
 from third_party.WideResNet_pytorch_thermometer.wideresnet_thermometer import WideResNetThermometer
 
-from cos_scheduler import CosineAnnealingWarmupRestarts
-
 import torch
 import torch.backends.cudnn as cudnn
 import torch.nn.functional as F
