@@ -1,4 +1,4 @@
-# Pixel to Binary Embedding TowardsRobustness for CNNs
+# Pixel to Binary Embedding Towards Robustness for CNNs
 The repository is the official implementation of [Pixel to Binary Embedding](https://arxiv.org/abs/2206.05898).
 
 ![overview-1](https://user-images.githubusercontent.com/10476902/184076571-5e88424d-b8c7-4c23-9a48-af0aa3be0ee7.png)
